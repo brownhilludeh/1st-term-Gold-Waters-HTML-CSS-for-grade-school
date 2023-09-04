@@ -1,0 +1,103 @@
+/* Our cascading stylesheets will come below */
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+/* To reset all html presetting we use asterisk  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Helvetica, sans-serif;
+}
+a {
+  color: inherit;
+}
+body {
+  color: whitesmoke;
+}
+
+/* Styling our header tag */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 60px;
+  background-color: transparent;
+  z-index: 10;
+}
+nav {
+  padding: 24px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+.navitems {
+  display: flex;
+  align-items: center;
+}
+.navitems li a {
+  padding-inline: 20px;
+}
+.navitems li a:hover {
+  padding-inline: 16px;
+  color: gold;
+}
+
+/* our hero section css */
+.hero {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    245.59deg,
+    #4d9559 0%,
+    #38703d 28.53%,
+    #133917 75.52%
+  );
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 32px;
+}
+section {
+  padding: 0 10%;
+}
+.hero-text h5 {
+  font-weight: 800;
+  font-size: small;
+}
+.hero-text h3 {
+  color: orange;
+  font-weight: 100;
+}
+.hero-text h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 86px;
+  line-height: .8;
+  margin: 32px 0;
+}
+.hero-text p {
+  margin-bottom: 32px;
+}
+.hero-text a {
+  display: inline-block;
+  background-color: orange;
+  color: #133917;
+  font-weight: 700;
+  padding: 12px 30px;
+  line-height: 1.4;
+  font-size: 14px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  margin-right: 16px;
+}
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
