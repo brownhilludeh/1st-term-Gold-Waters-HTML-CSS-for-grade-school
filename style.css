@@ -101,3 +101,35 @@ section {
   width: 100%;
   height: auto;
 }
+.waters{
+  color: #133917;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container{
+  padding: 16px 10%;
+}
+.waters-img{
+  max-width: 50%;
+  height: 70vh;
+}
+.waters-text {
+  max-width: 40%;
+}
+.waters-img img {
+  max-width: 100%;
+  width: auto;
+  height: inherit;
+}
+.waters h3{
+  color: #38703d;
+  font-size: 24px;
+  font-family:"Permanent Marker", cursive;
+}
+.waters p {
+  font-size: 18px;
+  font-weight: 100;
+}
