@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+ul{
+    list-style: none;
+}
+nav{
+    height: 60px;
+}
+.navbar{
+    height: 100%;
+    width: 100vw;
+    padding: 10px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 20px -15px black;
+}
+.navitems{
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    padding-inline: 10px;
+    text-transform: capitalize;
+}
+.logo img{
+    height: 50px;
+}
